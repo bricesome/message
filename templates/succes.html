@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form>
+   <div style="height:50px"></div>
+    <div class="row mb-4">
+        <div class="col d-flex justify-content-center">
+            <div class="container-fluid">
+                <div class="text-center">
+                    <p class="form-check-label" for="form2Example31"> Felicitation, votre adress mail est verifié</p>
+                    <div class="card-text">
+                        Veillez vous connecter
+                        <a class="btn btn-primary" href="{% url 'login' %}">se connecter</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</form>
+
+
+{% endblock %}
